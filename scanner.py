@@ -11,7 +11,7 @@ import sys
 #   /dev/ttyAMA0
 #   /dev/ttyUSB0
 PORT = "/dev/serial0"
-BAUD = 9600   # default for most Waveshare scanners (try 115200 if not working)
+BAUD = 115200   # default for most Waveshare scanners (try 115200 if not working)
 
 try:
     ser = serial.Serial(PORT, BAUD, timeout=1)
